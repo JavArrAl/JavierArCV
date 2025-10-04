@@ -1,17 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Javier Arranz Alvaro",
+    "name": "Javier Arranz",
     "label": "Full-stack | Data | Cloud",
     "image": "",
     "email": "javierarral@gmail.com",
     "phone": "",
     "url": "https://www.linkedin.com/in/j-arranz/",
-    "summary": "As an experienced full stack engineer with expertise in back-end and front-end development, CI/CD, Infrastructure as Code (IaC), and serverless technologies, I have worked across multiple domains driven by my curiosity and passion for learning.",
+    "summary": "Product engineer with end-to-end ownership across the full stack, including: infrastructure, backend, frontend, security, and delivery pipelines. Combines deep expertise in modern serverless architectures with a track record of shipping high-impact features from concept to production.",
     "location": {
-      "city": "London",
+      "city": "London,",
       "countryCode": "GB",
-      "region": "England"
+      "region": ""
     },
     "profiles": [
       {
@@ -27,12 +27,25 @@
       "position": "Full Stack Engineer",
       "url": "https://www.flockcover.com",
       "startDate": "2023-08-01",
-      "summary": "I build end-to-end features that help partners make better decisions, advancing our goal of making the world quantifiably safer. Collaborating with Trading and Growth teams, I take a product-driven approach across the full stack: infrastructure, databases, backend, frontend, security, and design.",
+      "summary": "Own complete product features from infrastructure design through delivery and monitoring. Build serverless, event-driven systems collaborating with Trading and Growth teams across the entire stack; infrastructure provisioning, database design, backend services, frontend interfaces, security implementation, and user feedback integration.",
       "highlights": [
-        "Specialized in serverless event-driven architecture on AWS",
-        "Full-stack development using TypeScript, React, and PostgreSQL",
-        "Work in both monorepo and microservices implementations",
-        "Strong CI/CD pipeline implementation with TDD approach"
+        "Design and implement serverless event-driven architectures on AWS using Lambda, EventBridge, and Queues",
+        "Build full-stack features end-to-end: IaC (Terraform and CDK), PostgreSQL, Node.js APIs, React",
+        "Implement security best practices, monitoring, and delivery pipelines with CI/CD and TDD approaches"
+      ],
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "AWS",
+        "Lambda",
+        "DynamoDB",
+        "EventBridge",
+        "CI/CD",
+        "Serverless",
+        "Event-Driven Architecture",
+        "Functional Programming"
       ]
     },
     {
@@ -41,8 +54,21 @@
       "url": "https://infinityworks.co.uk",
       "startDate": "2022-02-01",
       "endDate": "2023-07-01",
-      "summary": "Full-stack engineer in the insurance industry (Sept 22 - Jul 23).",
-      "highlights": []
+      "summary": "Delivered full-stack solutions for insurance platform, owning features from architecture design through production deployment across backend services, frontend interfaces, and cloud infrastructure.",
+      "highlights": [
+        "Built microservices and serverless functions using Node.js and TypeScript with PostgreSQL databases",
+        "Designed and implemented complete features end-to-end including AWS infrastructure, APIs, and React frontends",
+        "Collaborated across teams to deliver secure, scalable solutions from concept to production"
+      ],
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "AWS",
+        "Microservices",
+        "Serverless"
+      ]
     },
     {
       "name": "MTS Health Limited",
@@ -50,17 +76,20 @@
       "url": "https://www.mtshealth.co.uk",
       "startDate": "2020-02-01",
       "endDate": "2022-02-01",
-      "summary": "Data gathering and consolidation executing complex queries on SQL Server 2016 to improve business decision making.",
-      "highlights": []
-    },
-    {
-      "name": "Telefónica Business Solutions",
-      "position": "Internship",
-      "url": "https://www.telefonica.com",
-      "startDate": "2016-11-01",
-      "endDate": "2017-05-01",
-      "summary": "Internship at the IP Technology department where I worked in the development of automation solutions for the networks' core.",
-      "highlights": []
+      "summary": "Owned complete data solutions from ingestion to visualization, building ETL pipelines and analytics tools that consolidated multiple data sources to enable data-driven business decisions.",
+      "highlights": [
+        "Designed and implemented end-to-end data pipelines using Python and SQL Server for medical device data",
+        "Built ETL processes to consolidate data from disparate sources into unified analytics schemas",
+        "Developed complex T-SQL queries and stored procedures to power business intelligence dashboards"
+      ],
+      "keywords": [
+        "Python",
+        "SQL Server",
+        "T-SQL",
+        "Data Engineering",
+        "ETL",
+        "Data Analytics"
+      ]
     }
   ],
   "education": [
@@ -83,25 +112,31 @@
   ],
   "skills": [
     {
-      "name": "Cloud & DevOps",
+      "name": "Cloud & Infrastructure",
+      "keywords": ["AWS", "Terraform", "CDK", "CI/CD", "GithubActions"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["TypeScript", "Node.js", "Python", "Scala", "MATLAB"]
+    },
+    {
+      "name": "System Design",
       "keywords": [
-        "Amazon Web Services (AWS)",
-        "Infrastructure as Code (IaC)",
-        "CI/CD",
-        "Serverless"
+        "Event Driven",
+        "Serverless",
+        "Microservices",
+        "Functional Programming",
+        "Object-Oriented Programming"
       ]
     },
     {
-      "name": "Programming",
-      "keywords": ["TypeScript", "Scala", "Object-Oriented Programming (OOP)"]
-    },
-    {
-      "name": "Architecture",
-      "keywords": ["Event Driven", "Solution Architecture", "Cloud Security"]
-    },
-    {
-      "name": "Data",
-      "keywords": ["SQL Server", "Apache Spark"]
+      "name": "Data & Databases",
+      "keywords": [
+        "PostgreSQL",
+        "SQL Server",
+        "Apache Spark",
+        "Data Engineering"
+      ]
     }
   ],
   "languages": [
@@ -130,18 +165,16 @@
     {
       "name": "Vagus nerve activity recording and processing based on CNT yarn electrodes",
       "description": "Intrafascicular vagal activity recording and analysis based on carbon nanotube yarn electrode.",
+      "url": "https://link.springer.com/article/10.1007/s12204-020-2197-9",
       "startDate": "2018-09-01",
+      "endDate": "2019-09-01",
       "keywords": [
-        "Biomedical Engineering",
-        "Object-Oriented Programming (OOP)"
+        "MATLAB",
+        "Python",
+        "Signal Processing",
+        "Object-Oriented Programming",
+        "Biomedical Engineering"
       ]
-    },
-    {
-      "name": "Wearable device for TBI patients",
-      "description": "Stress and Energy Detection System for TBI Patients using Wearable Physiological Sensors.",
-      "startDate": "2017-11-01",
-      "endDate": "2018-07-01",
-      "keywords": ["Medical Technology", "Wearable Devices"]
     }
   ],
   "volunteer": [
