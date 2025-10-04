@@ -1,0 +1,16 @@
+{
+  "name": "my-cv",
+  "version": "1.0.0",
+  "description": "My CV built with JSON Resume",
+  "scripts": {
+    "build": "resumed render resume.json --theme jsonresume-theme-elegant",
+    "validate": "resumed validate resume.json"
+  },
+  "devDependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resumed": "^4.0.2"
+  },
+  "main": "index.js",
+  "author": "JavArrAl <javierarral@gmail.com>",
+  "license": "MIT"
+}

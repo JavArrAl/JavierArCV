@@ -1,0 +1,156 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Javier Arranz Alvaro",
+    "label": "Full-stack | Data | Cloud",
+    "image": "",
+    "email": "javierarral@gmail.com",
+    "phone": "",
+    "url": "https://www.linkedin.com/in/j-arranz/",
+    "summary": "As an experienced full stack engineer with expertise in back-end and front-end development, CI/CD, Infrastructure as Code (IaC), and serverless technologies, I have worked across multiple domains driven by my curiosity and passion for learning.",
+    "location": {
+      "city": "London",
+      "countryCode": "GB",
+      "region": "England"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "j-arranz",
+        "url": "https://www.linkedin.com/in/j-arranz/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Flock",
+      "position": "Full Stack Engineer",
+      "url": "https://www.flockcover.com",
+      "startDate": "2023-08-01",
+      "summary": "I build end-to-end features that help partners make better decisions, advancing our goal of making the world quantifiably safer. Collaborating with Trading and Growth teams, I take a product-driven approach across the full stack: infrastructure, databases, backend, frontend, security, and design.",
+      "highlights": [
+        "Specialized in serverless event-driven architecture on AWS",
+        "Full-stack development using TypeScript, React, and PostgreSQL",
+        "Work in both monorepo and microservices implementations",
+        "Strong CI/CD pipeline implementation with TDD approach"
+      ]
+    },
+    {
+      "name": "Infinity Works (Part of Accenture)",
+      "position": "Full Stack Engineering Specialist",
+      "url": "https://infinityworks.co.uk",
+      "startDate": "2022-02-01",
+      "endDate": "2023-07-01",
+      "summary": "Full-stack engineer in the insurance industry (Sept 22 - Jul 23).",
+      "highlights": []
+    },
+    {
+      "name": "MTS Health Limited",
+      "position": "Biomedical Engineer",
+      "url": "https://www.mtshealth.co.uk",
+      "startDate": "2020-02-01",
+      "endDate": "2022-02-01",
+      "summary": "Data gathering and consolidation executing complex queries on SQL Server 2016 to improve business decision making.",
+      "highlights": []
+    },
+    {
+      "name": "Telefónica Business Solutions",
+      "position": "Internship",
+      "url": "https://www.telefonica.com",
+      "startDate": "2016-11-01",
+      "endDate": "2017-05-01",
+      "summary": "Internship at the IP Technology department where I worked in the development of automation solutions for the networks' core.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "KTH Royal Institute of Technology",
+      "url": "https://kth.se",
+      "area": "Biomedical/Medical Engineering",
+      "studyType": "Master's degree",
+      "startDate": "2017-01-01",
+      "endDate": "2020-01-01"
+    },
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "url": "htpps://en.sjtu.edu.cn",
+      "area": "Bioengineering and Biomedical Engineering",
+      "studyType": "Master's degree",
+      "startDate": "2018-01-01",
+      "endDate": "2020-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "Amazon Web Services (AWS)",
+        "Infrastructure as Code (IaC)",
+        "CI/CD",
+        "Serverless"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["TypeScript", "Scala", "Object-Oriented Programming (OOP)"]
+    },
+    {
+      "name": "Architecture",
+      "keywords": ["Event Driven", "Solution Architecture", "Cloud Security"]
+    },
+    {
+      "name": "Data",
+      "keywords": ["SQL Server", "Apache Spark"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Amazon Web Services Developer - Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2024-09-01"
+    },
+    {
+      "name": "Amazon Web Services Solutions Architect - Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2023-04-01"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vagus nerve activity recording and processing based on CNT yarn electrodes",
+      "description": "Intrafascicular vagal activity recording and analysis based on carbon nanotube yarn electrode.",
+      "startDate": "2018-09-01",
+      "keywords": [
+        "Biomedical Engineering",
+        "Object-Oriented Programming (OOP)"
+      ]
+    },
+    {
+      "name": "Wearable device for TBI patients",
+      "description": "Stress and Energy Detection System for TBI Patients using Wearable Physiological Sensors.",
+      "startDate": "2017-11-01",
+      "endDate": "2018-07-01",
+      "keywords": ["Medical Technology", "Wearable Devices"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Assistive Technology at KTH",
+      "position": "Volunteer Biomedical Engineer",
+      "startDate": "2017-11-01",
+      "endDate": "2018-07-01",
+      "summary": "We worked in the development of a wearable device capable of helping Traumatic Brain Injury patients manage its energy and stress levels."
+    }
+  ]
+}
