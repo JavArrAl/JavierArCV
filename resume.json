@@ -141,12 +141,12 @@
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native or bilingual proficiency"
-    },
-    {
       "language": "English",
       "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native or bilingual proficiency"
     }
   ],
   "certificates": [
